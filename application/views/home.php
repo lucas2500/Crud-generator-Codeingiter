@@ -22,18 +22,93 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="form-group my-4">
 					<input type="text" name="campo1" id="campo1" placeholder="Campo 1" class="form-control" required="">
 				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<select class="form-control" name="tipoCampo1" required="">
+							<option value="">Tipo do campo</option>
+							<option value="VARCHAR">VARCHAR</option>
+							<option value="INT">INT</option>	
+							<option value="FLOAT">FLOAT</option>
+						</select>
+					</div>
+					<div class="form-group ml-2">
+						<input type="text" name="tamanhoC1" id="tamanhoC1" placeholder="Tamanho do campo" class="form-control" required="">
+					</div>
+				</div>
+
 				<div class="form-group my-4">
 					<input type="text" name="campo2" placeholder="Campo 2" class="form-control">
 				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<select class="form-control" name="tipoCampo2">
+							<option value="">Tipo do campo</option>
+							<option value="VARCHAR">VARCHAR</option>
+							<option value="INT">INT</option>	
+							<option value="FLOAT">FLOAT</option>
+						</select>
+					</div>
+					<div class="form-group ml-2">
+						<input type="text" name="tamanhoC2" id="tamanhoC2" placeholder="Tamanho do campo" class="form-control">
+					</div>
+				</div>
+
+
 				<div class="form-group my-4">
 					<input type="text" name="campo3" placeholder="Campo 3" class="form-control">
 				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<select class="form-control" name="tipoCampo3">
+							<option value="">Tipo do campo</option>
+							<option value="VARCHAR">VARCHAR</option>
+							<option value="INT">INT</option>	
+							<option value="FLOAT">FLOAT</option>
+						</select>
+					</div>
+					<div class="form-group ml-2">
+						<input type="text" name="tamanhoC3" id="tamanhoC3" placeholder="Tamanho do campo" class="form-control">
+					</div>
+				</div>
+
+
+
 				<div class="form-group my-4">
 					<input type="text" name="campo4" placeholder="Campo 4" class="form-control">
 				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<select class="form-control" name="tipoCampo4">
+							<option value="">Tipo do campo</option>
+							<option value="VARCHAR">VARCHAR</option>
+							<option value="INT">INT</option>	
+							<option value="FLOAT">FLOAT</option>
+						</select>
+					</div>
+					<div class="form-group ml-2">
+						<input type="text" name="tamanhoC4" id="tamanhoC4" placeholder="Tamanho do campo" class="form-control">
+					</div>
+				</div>
+
+
 				<div class="form-group my-4">
 					<input type="text" name="campo5" placeholder="Campo 5" class="form-control">
 				</div>
+				<div class="form-inline">
+					<div class="form-group">
+						<select class="form-control" name="tipoCampo5">
+							<option value="">Tipo do campo</option>
+							<option value="VARCHAR">VARCHAR</option>
+							<option value="INT">INT</option>	
+							<option value="FLOAT">FLOAT</option>
+						</select>
+					</div>
+					<div class="form-group ml-2">
+						<input type="text" name="tamanhoC5" id="tamanhoC5" placeholder="Tamanho do campo" class="form-control">
+					</div>
+				</div>
+
+
 				<div class="form-group my-4">
 					<select class="form-control" name="acao" required="">
 						<option value="">Selecionar ação</option>

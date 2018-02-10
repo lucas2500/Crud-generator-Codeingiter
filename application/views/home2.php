@@ -16,29 +16,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 	<div class="container my-4">
-		
 		<h1 class="text-center">Gerador de crud em Codeingiter</h1>
 		<div class="text-right">
 			<a href="<?php echo base_url();?>principal/index"><button class="btn btn-danger text-right">Retornar</button></a>
 		</div>
 		<label>Clique no campo para copiar o código.</label>
-		<form action="" method="">
-			<div class="form-group my-4">
-				<input type="text" name="campo1" onclick="getCode(this)" placeholder="Campo 1" class="form-control" readonly="" value="<?php echo element ('campo1', $campos); ?>">
-			</div>
-			<div class="form-group my-4">
-				<input type="text" name="campo2" onclick="getCode(this)" placeholder="Campo 2" class="form-control" readonly="" value="<?php echo element ('campo2', $campos); ?>">
-			</div>
-			<div class="form-group my-4">
-				<input type="text" name="campo3" onclick="getCode(this)"  placeholder="Campo 3" class="form-control" readonly="" value="<?php echo element ('campo3', $campos); ?>">
-			</div>
-			<div class="form-group my-4">
-				<input type="text" name="campo4" onclick="getCode(this)" placeholder="Campo 4" class="form-control" readonly="" value="<?php echo element ('campo4', $campos); ?>">
-			</div>
-			<div class="form-group my-4">
-				<input type="text" name="campo5" onclick="getCode(this)" placeholder="Campo 5" class="form-control" readonly="" value="<?php echo element ('campo5', $campos); ?>">
-			</div>
-		</form>
+		<div class="form-group my-4">
+			<input type="text" name="campo1" onclick="getCode(this)" placeholder="Campo 1" class="form-control" readonly="" value="<?php echo element ('campo1', $campos); ?>">
+		</div>
+		<div class="form-group my-4">
+			<input type="text" name="sql1" onclick="getCode(this)" placeholder="Código sql" class="form-control" readonly="" value="<?php echo element ('sql1', $sql); ?>">
+		</div>
+
+
+		<div class="form-group my-4">
+			<input type="text" name="campo2" onclick="getCode(this)" placeholder="Campo 2" class="form-control" readonly="" value="<?php echo element ('campo2', $campos); ?>">
+		</div>
+		<div class="form-group my-4">
+			<input type="text" name="sql2" onclick="getCode(this)" placeholder="Campo 2" class="form-control" readonly="" value="<?php echo element ('sql2', $sql); ?>">
+		</div>
+
+
+		<div class="form-group my-4">
+			<input type="text" name="campo3" onclick="getCode(this)"  placeholder="Campo 3" class="form-control" readonly="" value="<?php echo element ('campo3', $campos); ?>">
+		</div>
+		<div class="form-group my-4">
+			<input type="text" name="sql3" onclick="getCode(this)"  placeholder="Campo 3" class="form-control" readonly="" value="<?php echo element ('sql3', $sql); ?>">
+		</div>
+
+
+		<div class="form-group my-4">
+			<input type="text" name="campo4" onclick="getCode(this)" placeholder="Campo 4" class="form-control" readonly="" value="<?php echo element ('campo4', $campos); ?>">
+		</div>
+		<div class="form-group my-4">
+			<input type="text" name="campo4" onclick="getCode(this)" placeholder="Campo 4" class="form-control" readonly="" value="<?php echo element ('sql4', $sql); ?>">
+		</div>
+
+
+		<div class="form-group my-4">
+			<input type="text" name="campo5" onclick="getCode(this)" placeholder="Campo 5" class="form-control" readonly="" value="<?php echo element ('campo5', $campos); ?>">
+		</div>
+		<div class="form-group my-4">
+			<input type="text" name="sql5" onclick="getCode(this)" placeholder="Campo 5" class="form-control" readonly="" value="<?php echo element ('sql5', $sql); ?>">
+		</div>
+
+		
 		<div class="text-left">
 			<strong>No seu controller: </strong><?php echo $controller; ?>
 		</div>
